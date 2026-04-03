@@ -1,0 +1,25 @@
+@AstronomyViewer.API_HostAddress = http://localhost:5115
+
+GET {{AstronomyViewer.API_HostAddress}}/api/astronomy/planets
+Accept: application/json
+
+###
+
+GET {{AstronomyViewer.API_HostAddress}}/api/astronomy/stars
+Accept: application/json
+
+###
+
+GET {{AstronomyViewer.API_HostAddress}}/api/weather
+Accept: application/json
+
+###
+
+POST {{AstronomyViewer.API_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "test@example.com",
+  "password": "password123"
+}

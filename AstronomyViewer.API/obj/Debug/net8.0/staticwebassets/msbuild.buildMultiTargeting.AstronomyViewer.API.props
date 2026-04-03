@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AstronomyViewer.API.props" />
+</Project>
